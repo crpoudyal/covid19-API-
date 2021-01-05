@@ -1,5 +1,5 @@
 function fetch(){
-    $.get("https://api.covid19api.com/summary", 
+    $.get("https://api.covid19api.com/summary"), 
     function (data){
         console.log(data);
         var tbl = document.getElementById('tbl');
